@@ -8,7 +8,7 @@ async function main() {
 
   const dataCryptoCompare = respCryptoCompare.data;
 
-  console.log(`CyptoCompare: ETH price is ${dataCryptoCompare.EUR} EUR and ${dataCryptoCompare.USD} USD`);
+  console.log(`CryptoCompare: ETH price is ${dataCryptoCompare.EUR} EUR and ${dataCryptoCompare.USD} USD`);
 
   // First we call this endpoint
   // https://api.coinbase.com/v2/exchange-rates?currency=ETH
