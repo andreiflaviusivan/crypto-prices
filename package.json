@@ -1,0 +1,29 @@
+{
+  "name": "crypto-prices",
+  "version": "1.0.0",
+  "description": "Get current Ethereum price from 2 APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiflaviusivan/crypto-prices.git"
+  },
+  "keywords": [
+    "crypto",
+    "ethereum",
+    "price",
+    "blockchain"
+  ],
+  "author": "Andrei-Flavius Ivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreiflaviusivan/crypto-prices/issues"
+  },
+  "homepage": "https://github.com/andreiflaviusivan/crypto-prices#readme",
+  "dependencies": {
+    "axios": "^1.7.5"
+  }
+}
