@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="./eth-price.data.js"></script>
+<script>
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title: {
+		text: "ETH-EUR historical price"
+	},
+	axisX: {
+		title: "Date"
+	},
+	axisY: {
+		title: "EUR",
+	},
+  zoomEnabled: true,
+	data: [{
+		type: "line",
+		name: "ETH-EUR price",
+		xValueType: "dateTime",
+		dataPoints: CHART_DATA,
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+</body>
+</html>
